@@ -11631,7 +11631,7 @@ Molpy.DefineBoosts = function() {
 		plural: 'Anisoptera',
 		group: 'drac',
 		desc: function(me) {
-			str = 'Increases the probability of Breath special attacks and may give you advanced informaton about Redundaknights';
+			str = 'Increases the probability of Breath special attacks and may give you advanced information about Redundaknights';
 			if (me.bought) str += '.<p>You have ' + Molpify(me.bought) + ' ' + (me.name);
 			return str;
 		},
